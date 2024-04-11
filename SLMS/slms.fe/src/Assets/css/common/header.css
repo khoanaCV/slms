@@ -1,0 +1,146 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+.inner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  text-decoration: none;
+  margin-right: 150px;
+}
+.logo_text1 {
+  font-weight: bold;
+  background: linear-gradient(#f42222, #009cf3 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.header_left {
+}
+.header_left_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.header_left_item {
+  margin: 0 20px;
+}
+.header_left_link {
+  text-decoration: none;
+  color: var(--primary-text);
+  font-weight: 700;
+}
+.header_left_link:hover {
+  color: var(--primary);
+}
+.btn-login:hover {
+  opacity: 0.7;
+}
+
+.header_left_infomation {
+  color: var(--primary-text);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+.item_avt {
+  display: inline-block;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #d8d8d8;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.item_name {
+}
+.infomation_name {
+  display: flex;
+  align-items: center;
+  margin: 0 4px;
+}
+.box_popup {
+  width: 180px;
+}
+.box_popup_item {
+  text-decoration: none;
+  color: var(--primary-text);
+}
+.box_popup_item:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+.infomation_name:hover {
+  cursor: pointer;
+  color: var(--primary);
+}
+
+.notifications-container {
+  position: absolute;
+  top: 7%; /* Đặt nó ngay dưới header */
+  right: 23%; 
+  z-index: 10; /* Đảm bảo nó nằm trên các phần tử khác */
+  background: #FFFFFF; /* Màu nền trắng */
+  border: 1px solid #ccc; /* Viền màu xám nhẹ */
+  border-radius: 4px; /* Bo tròn góc */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Đổ bóng nhẹ */
+  width: 500px; /* Chiều rộng cố định */
+  overflow: hidden; /* Ẩn nội dung tràn ra ngoài */
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E9ECEF; /* Light gray background for header */
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.notification-title {
+  font-weight: bold;
+  color: #333; /* Dark text color for the title */
+  margin: 0;
+}
+
+/* .notification-icon {
+  display: inline-block;
+  width: 24px; 
+  height: 24px; 
+  background-image: url('../../images/OIP.jfif'); 
+  background-size: cover;
+  cursor: pointer;
+} */
+
+.notification-item {
+  background-color: #ffffff; /* White background for each item */
+  border-bottom: 1px solid #ccc; /* Gray border for each item */
+  padding: 10px;
+  list-style: none;
+}
+
+.notification-item:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}
+
+.notification-content {
+  color: #333; /* Dark text color */
+  font-size: 16px; /* Adjust font size as necessary */
+}
+
+

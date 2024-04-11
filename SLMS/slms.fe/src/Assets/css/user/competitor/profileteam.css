@@ -1,0 +1,19 @@
+/* css header team */
+.width-header_team{
+    background-color: #20273F;
+}
+
+.menu-information_item{
+    color: white;
+    border-bottom: none;
+}
+.menu-information_item>td{
+    text-align: left;
+}
+.menu-information_item,
+.menu-information_item td {
+    border-bottom: none !important;
+}
+.padding-10{
+    padding: 10px;
+}

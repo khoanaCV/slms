@@ -1,0 +1,12 @@
+.position-dropdown-col{
+    text-align: start;
+}
+.vdv_wrapper{
+    border: 1px solid #ccc;
+    padding: 20px;
+    
+}
+
+.custom-dropdown .dropdown-menu {
+    background-color: #FD1E50; /* Màu nền mới cho dropdown */
+}

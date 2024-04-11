@@ -1,0 +1,30 @@
+:root {
+  --primary: #fd1e50;
+  --primary-text: #8f8f8f;
+  --default-layout-width: 1150px;
+}
+
+html {
+  /* font-size: 62.5%; */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+  background-color: white;
+
+  color: black;
+  font-family: "Jomhuria", "Helvetica Neue", Helvetica, Arial;
+  /* font-size: 1.6rem; */
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+}
+
+
+

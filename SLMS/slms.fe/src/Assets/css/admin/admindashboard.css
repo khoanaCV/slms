@@ -1,0 +1,178 @@
+/* sidebar */
+
+.sidebar {
+    width: 100%; /* Adjust width as needed */
+    background-color: #FFF; /* Replace with the actual color you want */
+    height: 100%;
+    padding: 20px;
+   background-color: #434A54
+  }
+  
+  .brand-name {
+    color: white; /* Adjust the color code as per your brand color */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .brand-name h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .metismenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .metismenu li button:hover {
+    transform: translateX(4px);
+    transition: transform 0.3s ease;
+  }
+  
+  .sidebar-nav .g_heading {
+    padding: 10px 0;
+    font-size: 0.85rem;
+    color: white; /* Replace with the actual color you want */
+    text-transform: uppercase;
+  }
+  
+  .sidebar-nav li {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+  
+  .sidebar-nav li button {
+    color: #333; /* Replace with the actual color you want */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  .sidebar-nav li a i {
+    min-width: 25px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .sidebar-nav li a span {
+    flex: 1;
+  }
+  
+  .sidebar-nav li.active button,
+  .sidebar-nav li button:hover {
+    color: #D32F2F; /* Adjust the hover color code as per your design */
+  }
+  
+  /* Add more styles based on your specific needs */
+  /* Page CSS */
+
+  /* StatsCards.module.css */
+
+.row-deck {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .card {
+    flex: 1; /* This will make sure all cards take equal width */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    margin-bottom: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ebedf2;
+    padding: 0.75rem 1.25rem;
+    height: 60px; /* Fixed height for all headers */
+  }
+  
+  .card-title {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+  }
+  
+  .card-body {
+    flex: 1; /* Fill the available space in the .card */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+    height: 60px; /* Fixed height for all .number elements */
+  }
+  
+  .font-12 {
+    font-size: 0.75rem;
+    color: #6c757d;
+    margin-top: auto; /* Pushes it to the bottom of .card-body */
+  }
+  
+  .counter {
+    font-family: 'Courier New', Courier, monospace; /* or any monospaced font */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1199px) {
+    .card {
+      flex-basis: calc(50% - 1rem); /* Adjust the width minus margin */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      flex-basis: calc(100% - 1rem); /* Full width on smaller screens */
+    }
+  }
+  
+  /* tournament css */
+
+  /* adminDashboard.css */
+.table-header {
+  background-color: #f44336; /* Red color for headers */
+  color: white;
+}
+
+.table-row {
+  background-color: #ffffff; /* White for odd rows */
+}
+
+.table-row:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+.button-primary {
+  background-color: #fd1e50; /* Red color for buttons */
+  border: none;
+  margin-right: 8px;
+}
+
+.button-secondary {
+  background-color: #aaaaaa; /* Grey color for secondary buttons */
+  border: none;
+}
+
+/* ... rest of your styles ... */
+
+  

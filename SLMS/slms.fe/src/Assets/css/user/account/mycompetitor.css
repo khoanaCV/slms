@@ -1,0 +1,47 @@
+.card_img-ex{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    border-radius: 50%;
+}
+.card_img1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.card_img_quantity1{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.team-logo-container {
+    position: relative;
+    width: 100%; /* Use the full width of the column */
+    padding-top: 50%; /* This gives you a 4:3 aspect ratio */
+    overflow: hidden; /* This ensures nothing spills outside the container */
+  }
+  
+  .team-logo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the width of the container */
+    height: 100%; /* Cover the height of the container */
+    object-fit: contain; /* Maintain the aspect ratio, cover the area fully */
+    object-position: center;
+  }
+
+  .team-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 380px;
+}
+

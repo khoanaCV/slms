@@ -1,0 +1,50 @@
+/* CSS */
+.top-banner {
+    background-image: url('../../images/slide1-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.top-row {
+    min-height: 200px; 
+}
+
+.slogan h1 {
+    font-size: 2em; 
+    color: #ffffff; 
+
+}
+
+.action-row {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px 0; 
+}
+
+.action-button {
+    margin: 20px 0;
+    border-radius: 10px; 
+    font-size: 2em; 
+    padding: 50px 50px; 
+
+}
+
+.stats-row {
+    background: rgba(255, 255, 255, 0.3); 
+    /* border-radius: 30px; */
+    padding: 20px 0;
+}
+
+.stat-col h3 {
+    font-size: 1.5em; 
+    color: #FFC107; 
+ 
+}
+
+.stat-number {
+    font-size: 3em; 
+    color: #FFFFFF; 
+
+}
+
+

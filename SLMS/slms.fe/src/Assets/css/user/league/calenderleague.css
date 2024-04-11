@@ -1,0 +1,84 @@
+.score{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 30px;
+}
+.Tournament{
+    font-weight: 600;
+}
+.bd_up{
+    border-top: 1px solid #ccc;
+}
+.bd_right{
+    border-right: 1px solid #ccc;
+}
+.bd_left{
+    border-left: 1px solid #ccc;
+}
+.bd_bottom{
+    border-bottom: 1px solid #ccc;
+}
+.schedule-img{
+    background-image: url("../../../images/schedule.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 190px;
+}
+.logo-card{
+    width: 80px;
+    height: 80px;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0px auto;
+    
+}
+.team-logo{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+
+
+/* CSS cho div chứa input và dropdown */
+.input-wrapper {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* CSS cho input */
+  .input-wrapper input {
+    width: 100%;
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước tổng thể */
+  }
+  
+  /* CSS cho thẻ ul */
+  .input-wrapper ul {
+    position: absolute;
+    top: 100%; /* Đặt dropdown ngay dưới input */
+    width: 100%;
+    margin-top: 2px; /* Tạo một khoảng cách nhỏ */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Hiệu ứng đổ bóng */
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 1000; /* Đảm bảo dropdown hiển thị trên các element khác */
+    box-sizing: border-box;
+    padding-left: 0;
+  }
+  
+  .input-wrapper ul li {
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+  }
+  
+  .input-wrapper ul li:hover {
+    background-color: #f0f0f0;
+  }

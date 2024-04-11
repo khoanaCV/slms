@@ -1,0 +1,34 @@
+/* TableComponent.css */
+.table-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #fff; /* change to match your theme */
+  }
+  
+  table { 
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* light gray line */
+  }
+  
+  th {
+    background-color: var(--primary); /* light gray background */
+    color: black;
+    color: white;
+  }
+  .table_ranking-img{
+    background-image: url("../../../images/tableranking2.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 190px;
+  }
+
+  .primary_active{
+    color: var(--primary);
+  }

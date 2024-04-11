@@ -1,0 +1,72 @@
+/* Notifications.css */
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.notifications-header {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.notifications-header .faBell {
+  margin-right: 10px;
+  color: #DC143C;
+}
+
+.notifications-controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.notifications-controls select,
+.notifications-controls button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.notifications-controls button {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.notification-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.notification-content {
+  /* display: flex; */
+}
+.notifications-list{
+  padding-top: 20px;
+  max-height: 475px;
+  overflow-y: auto;
+}
+.notification-date {
+  color: #999;
+  margin-right: 20px;
+}
+
+.notification-delete button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.notification-delete .faTimesCircle {
+  color: #dc3545;
+}
+
+/* Add additional styles for responsiveness, colors, typography as needed */

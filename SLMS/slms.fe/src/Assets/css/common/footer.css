@@ -1,0 +1,42 @@
+.wrapper_footer {
+  background-image: url(../../../Assets/images/twitterbg\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.inner_footer {
+  height: 100%;
+  text-align: center;
+}
+.footer_title {
+  color: white;
+  font-weight: 600;
+}
+.menu_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_text {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: start;
+}
+.menu_icon {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: start;
+}
+
+.menu_text_item {
+  text-decoration: none;
+  color: white;
+}
+
+.menu_icon_item {
+  font-size: 40px;
+  margin: 0 8px;
+}

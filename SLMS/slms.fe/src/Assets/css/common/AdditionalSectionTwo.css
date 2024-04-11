@@ -1,0 +1,21 @@
+.additional-section-two {
+    background-color: #f0f0f0; /* Replace with your desired background color */
+    padding: 50px 0;
+  }
+  
+  .icon {
+    color: #ff6f61; /* Replace with your desired icon color */
+    font-size: 3rem; /* Adjust icon size as needed */
+  }
+  
+  .text {
+    color: #333; /* Replace with your desired text color */
+    margin-top: 10px;
+    font-size: 3em;
+  }
+
+  p{
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 0rem !important;
+  }

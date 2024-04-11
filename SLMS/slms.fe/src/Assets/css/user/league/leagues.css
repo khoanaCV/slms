@@ -1,0 +1,146 @@
+.header-body{
+    box-shadow: 0 1px 2px #d8d8d8;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.custom-input:focus{
+    outline: none !important;
+    box-shadow: 0 0 0 0.1rem rgba(253, 30, 80, 0.25);
+    border-color: #fd1e50;
+}
+
+.body_wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.item_url{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #8f8f8f;
+}
+.btn-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    border: 1px solid #fd1e50;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+    
+}
+.btn-circle:hover{
+    cursor: pointer;
+    background-color: #fd1e50;
+}
+
+.body_inner{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.body_wrapper{
+    margin-bottom: 20px;
+}
+
+.item_page{
+background-color: #fd1e50;
+color: white;
+
+}
+.inner_item{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.item-container:hover{
+    border: 1px solid #fd1e50;
+}
+
+/* css cho popup vote */
+.popup_wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Độ mờ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_inner{
+    width: 500px;
+    height: 220px;
+    border-radius: 8px;
+    border: 1px solid #fd1e50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+    
+}
+.popup_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #fd1e50;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 10px;
+}
+.popup_header-text{
+    color: white;
+}
+.icon_close{
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+.icon_close:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.popup_body{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.list_star{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star_item{
+    font-size: 50px;
+    color: #8f8f8f;
+}
+.star_item:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.active_star{
+    color: yellow;
+    
+}
+.popup_footer{
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    text-align: end;
+}
+.popup_footer_btn:hover{
+    opacity: 0.7;
+}
+  
+  

@@ -1,0 +1,16 @@
+.border_8px{
+    border-radius: 4px;
+}
+.space_center{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prize-img{
+    background-image: url("../../../images/prize.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 190px;
+}

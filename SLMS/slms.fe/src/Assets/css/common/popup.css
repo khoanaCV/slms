@@ -1,0 +1,17 @@
+.popup {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 1px 2px #d8d8d8;
+  max-height: min((100vh - 96px) - 60px, 734px);
+  padding: 8px;
+  font-size: 16px;
+}
+
+.popup:hover {
+  cursor: pointer;
+}
+
+

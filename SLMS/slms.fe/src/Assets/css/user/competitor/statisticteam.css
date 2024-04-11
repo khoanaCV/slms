@@ -1,0 +1,12 @@
+.team-statistic_header{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    min-height: 40px;
+    background: #135f00 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    background-image: linear-gradient(to right top, #45af2a, #3ba023, #30901c, #268215, #1b730d, #1b730d, #1b730d, #1b730d, #268215, #30901c, #3ba023, #45af2a) !important;
+}

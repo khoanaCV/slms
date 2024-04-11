@@ -1,0 +1,307 @@
+.myleague-wrapper {
+    margin-bottom: 20px
+}
+
+.league-inner {
+    display: flex;
+    justify-content: center;
+}
+
+/* right content css */
+.right-content_inner {}
+
+.right-content_header {
+    display: flex;
+    text-align: center;
+}
+
+
+/* left content css */
+.league-left_awards {
+    padding: 40px 0;
+}
+
+.award_item-text {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.award_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.award_item-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+
+.topgoals_inner_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topgoals-header-title {
+    font-size: 25px;
+    color: var(--primary);
+}
+
+.topgoals-header-statitics {
+    color: #20273F;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.topgoals-header-statitics:hover {
+    color: var(--primary);
+    cursor: pointer;
+
+}
+
+.item_img {
+
+    width: "80px";
+    height: "80px";
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    position: relative;
+
+}
+
+.topgoals_menu-item {
+    position: relative;
+
+}
+
+.badge1 {
+
+    display: inline-block;
+    width: 30px;
+    /* Điều chỉnh kích thước badge theo mong muốn */
+    height: 30px;
+    /* Điều chỉnh kích thước badge theo mong muốn */
+    border-radius: 50%;
+    /* Tạo hình tròn */
+    background-color: transparent;
+    /* Đặt màu nền trắng */
+    overflow: hidden;
+    /* Loại bỏ phần nằm ngoài hình tròn */
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    /* Đặt badge ở đỉnh của container .topgoals_menu-item */
+    right: 0;
+    /* Đặt badge ở cạnh phải của container .topgoals_menu-item */
+    transform: translate(-50%, -30%);
+    /* Dịch chuyển badge để nửa nằm ngoài phần trên cùng của hình tròn lớn */
+}
+
+
+.badge-img1 {
+    width: 100%;
+    /* Đảm bảo hình ảnh lấp đầy badge */
+    height: 100%;
+    display: block;
+    /* Loại bỏ khoảng trắng dưới hình ảnh */
+
+}
+
+.topgoals_inner-body {
+    padding: 10px;
+}
+
+.item_name-topgoals {
+    width: 100%;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.topgoals_body-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Css calendar */
+.calender_item {
+    margin: 10px 0;
+}
+
+.calender_item-inner {
+    border-radius: 8px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.calender_item-inner {
+    /* Set the overall style for the calendar item container */
+    border: 1px solid #ddd;
+    /* Add border for clarity */
+
+    /* Style for the next-match-fixtures container */
+    .next-match-fixtures {
+
+        padding: 10px;
+        /* Add padding for spacing */
+        border-radius: 5px;
+        /* Add border radius for rounded corners */
+    }
+
+    .light {
+        background-color: #f5f5f5;
+    }
+
+    /* Style for the match-teams-vs container */
+    .match-teams-vs {
+        list-style: none;
+        padding: 0 20px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    /* Style for team-logo and mvs */
+    .team-logo,
+    .mvs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+
+    /* Style for team-logo image */
+    .team-logo img {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    /* Style for strong elements inside team-logo and mvs */
+    .team-logo strong,
+    .mvs strong {
+        font-weight: bold;
+    }
+
+    /* Style for vs */
+    .vs {
+        width: 50px;
+        padding: 5px;
+        text-align: center;
+        border-radius: 15px;
+        color: white;
+        margin: 0 10px;
+        background-color: var(--primary);
+    }
+
+    /* Style for nmf-loc container */
+    .nmf-loc {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0 0 10px;
+    }
+
+    /* Style for location and ticket link */
+    .nmf-loc li {
+        margin-right: 10px;
+    }
+
+    /* Style for icons in location and ticket link */
+    .nmf-loc i {
+        margin-right: 5px;
+    }
+}
+
+/* CSS statics table */
+
+#generalStatistic .portlet-body {
+    padding: 1rem;
+    background-color: #f0f0f0;
+    /* Chọn màu nền cho portlet-body */
+}
+
+#generalStatistic .row {
+    margin-right: 0;
+    margin-left: 0;
+    /* Xóa margin của row */
+}
+
+#generalStatistic .col {
+    padding: 0.5rem;
+    /* Giảm padding của cột để tăng khoảng cách giữa các card */
+}
+
+#generalStatistic .card {
+    margin-bottom: 1rem;
+    /* Khoảng cách dưới mỗi card */
+    border-radius: 10px;
+    /* Làm tròn góc của card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+    /* Nhẹ nhàng thêm bóng cho card */
+    overflow: hidden;
+    /* Giữ nội dung trong card */
+    height: 100%;
+    /* Đặt chiều cao cố định để đảm bảo tất cả các card có cùng chiều cao */
+}
+
+#generalStatistic .card-body {
+    padding: 1.25rem;
+    /* Tăng padding cho nội dung bên trong card */
+    display: flex;
+    /* Sử dụng flexbox để sắp xếp nội dung */
+    flex-direction: column;
+    /* Nội dung theo chiều dọc */
+    justify-content: center;
+    /* Căn giữa nội dung theo chiều dọc */
+    align-items: center;
+    /* Căn giữa nội dung theo chiều ngang */
+}
+
+#generalStatistic .card-body .fa {
+    font-size: 4rem;
+    /* Tăng kích thước icon */
+    margin-bottom: 0.75rem;
+    /* Khoảng cách giữa icon và tiêu đề */
+}
+
+#generalStatistic .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0.25rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#generalStatistic .card-subtitle {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+#generalStatistic .card-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 0;
+}
+.color-white{
+    color: white;
+}
+
+.statitics_item:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Đổ bóng */
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}

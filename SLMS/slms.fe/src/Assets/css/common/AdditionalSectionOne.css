@@ -1,0 +1,32 @@
+/* AdditionalSectionOne.css */
+.additional-section-one {
+    background: url('../../images/slide1-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white; 
+    padding: 50px 0;
+}
+
+.additional-section-one h2 {
+    margin-bottom: 30px; 
+}
+
+.tournament-format {
+    margin-bottom: 15px; 
+}
+
+.tournament-format i {
+    
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.tournament-format p {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.your-icon-class-1{
+    background: url('../../images/tructiep\ 1.png') no-repeat center center;
+    background-size: cover;
+}

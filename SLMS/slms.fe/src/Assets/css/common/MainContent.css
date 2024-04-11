@@ -1,0 +1,46 @@
+
+.main-content h1, .main-content h2 {
+
+    color: gray;
+}
+
+.main-content h1{
+    font-weight:bold;
+}
+
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.8);
+ 
+    padding: 20px;
+    margin-bottom: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.content-box h2 {
+    color: #d35400;
+    margin-bottom: 15px;
+}
+
+.content-box ul {
+    margin-top: 20px;
+    padding: 0;
+}
+
+.content-box li {
+    color: #333;
+    line-height: 2; 
+}
+
+.background-image-col {
+    background-image: url('../../images/—Pngtree—silhouette\ soccer\ player_4124265\ 1@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%; 
+    height: 450px; 
+}
