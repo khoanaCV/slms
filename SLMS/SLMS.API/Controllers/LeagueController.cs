@@ -9,6 +9,7 @@ namespace SLMS.API.Controllers
     [ApiController]
     public class LeagueController : ControllerBase
     {
+    
         private string[] Scopes = { Google.Apis.Drive.v3.DriveService.Scope.Drive };
         private Google.Apis.Drive.v3.DriveService driveService;
         private readonly ITournamentRepository _tournamentRepository;
