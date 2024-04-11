@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-      - 'SLMS/SLMS.API/**'  
+      - 'slms/SLMS/SLMS.API/**'  
   workflow_dispatch:
 
 jobs:
@@ -26,19 +26,19 @@ jobs:
 
       - name: Build with dotnet
         run: |
-          cd SLMS/SLMS.API
+          cd slms/SLMS/SLMS.API
           dotnet build --configuration Release
 
       - name: dotnet publish
         run: |
-          cd SLMS/SLMS.API
+          cd slms/SLMS/SLMS.API
           dotnet publish -c Release -o ./publish
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: .net-app
-          path: SLMS/SLMS.API/publish 
+          path: slms/SLMS/SLMS.API/publish 
 
   deploy:
     runs-on: windows-latest
