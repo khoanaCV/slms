@@ -8,6 +8,7 @@ namespace SLMS.API.Controllers
     [ApiController]
     public class AdminController : ControllerBase
     {
+    
         private readonly IAdminRepository _adminRepository;
 
         public AdminController(IAdminRepository adminRepository)
