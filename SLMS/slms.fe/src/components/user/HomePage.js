@@ -9,6 +9,7 @@ import AdditionalSectionTwo from "../common/AdditionalSectionTwo";
 
 export default function HomePage() {
   return (
+    
     <div>
       <Header />
       <TopBanner />
