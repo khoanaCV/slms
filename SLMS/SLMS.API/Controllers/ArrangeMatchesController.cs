@@ -9,6 +9,7 @@ namespace SLMS.API.Controllers
     [ApiController]
     public class ArrangeMatchesController : ControllerBase
     {
+    
         private readonly IArrangeMatchesRepository _arrangeMatchesRepository;
         public ArrangeMatchesController(IArrangeMatchesRepository arrangeMatchesRepository)
         {
