@@ -29,14 +29,21 @@ export default function Header() {
   const show2 = () => setVisible2(true);
   const hide2 = () => setVisible2(false);
 
-  const [visibleNotifications, setVisibleNotifications] = useState(false);
-  const toggleNotifications = () => setVisibleNotifications(!visibleNotifications);
+
 
   const toggleTippyVisibility = () => {
     setTippyVisible(!tippyVisible);
     console.log(tippyVisible);
   };
-  
+
+  const [visibleTippy1, setVisibleTippy1] = useState(false);
+  const toggleTippy1 = () => setVisibleTippy1(!visibleTippy1);
+
+
+  const [visibleNotifications, setVisibleNotifications] = useState(false);
+  const toggleNotifications = () => setVisibleNotifications(!visibleNotifications);
+
+
   const curentUser = localStorage.getItem('token');
   const [nameCurentUser, setNameCurrentUser] = useState('');
   const [isLogin, setIsLogin] = useState(false);

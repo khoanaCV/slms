@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import styles from "../../Assets/css/common/AdditionalSectionTwo.css";
 import classNames from "classnames/bind";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -21,48 +21,36 @@ const cx = classNames.bind(styles);
 export default function AdditionalSectionTwo() {
     return (
         <Container fluid className={cx("additional-section-two")} style={{ padding: "50px 0" }}>
-    <Row className="justify-content-center">
-       
-            <Card className={cx("text-center")}>
-                <Card.Body >
+            <Row>
+                <Col data-aos="flip-left" xs={6} md={4} className={cx("text-center")}>
                     <FontAwesomeIcon style={{ color: "#ff6f61", height: "100px" }} icon={faCalendarDays} />
-                    <Card.Title style={{ color: "gray", marginTop:"10px" }}>Thời gian</Card.Title>
-                    <Card.Text>
-                        Tiết kiệm tới 90% thời gian gọi điện, email, gặp gỡ, sắp xếp lịch, cập nhật kết quả, bảng xếp hạng... theo cách làm truyền thống.
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-       
-            <Card className={cx("text-center")}>
-                <Card.Body >
-                    <FontAwesomeIcon style={{ color: "#ff6f61", height: "100px" }} icon={faCamera} />
-                    <Card.Title style={{ color: "gray", marginTop:"10px" }}>Tài nguyên giấy</Card.Title>
-                    <Card.Text>
-                    Tổ chức giải đấu điện tử, không in ấn, tiết kiệm giấy, góp phần bảo vệ môi trường, không lãng phí tài nguyên.
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-       
-            <Card className={cx("text-center")}>
-                <Card.Body >
+                    <p>Thời gian</p>
+                    <span>Tiết kiệm tới 90% thời gian gọi điện, email, gặp gỡ, sắp xếp lịch, cập nhật kết quả, bảng xếp hạng... theo cách làm truyền thống.</span>
+                </Col>
+                <Col data-aos="zoom-in-down" xs={6} md={4} className={cx("text-center")}>
+                    <FontAwesomeIcon style={{ color: "#00e673", height: "300px" }} icon={faCircleCheck} />
+                    {/* <p>Tài nguyên giấy</p>
+                    <span>Tổ chức giải đấu hoàn toàn không in ấn, không lãng phí tài nguyên giấy, chung tay bảo vệ môi trường.</span> */}
+                </Col>
+                <Col data-aos="flip-right" xs={6} md={4} className={cx("text-center")}>
+                    <FontAwesomeIcon style={{ color: "#ff6f61", height: "100px" }} icon={faClipboardList} />
+                    <p>Tài nguyên giấy</p>
+                    <span>Tổ chức giải đấu hoàn toàn không in ấn, không lãng phí tài nguyên giấy, chung tay bảo vệ môi trường.</span>
+                </Col>
+                <Col data-aos="flip-left" xs={6} md={4} className={cx("text-center")}>
                     <FontAwesomeIcon style={{ color: "#ff6f61", height: "100px" }} icon={faGlobe} />
-                    <Card.Title style={{ color: "gray", marginTop:"10px" }}>Sự tiện lợi</Card.Title>
-                    <Card.Text>
-                    Truy cập thông tin mọi lúc, mọi nơi qua máy tính, điện thoại, tablet. Báo cáo và thống kê được tự động hóa hoàn toàn.
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-       
-            <Card className={cx("text-center")}>
-                <Card.Body >
+                    <p>Sự tiện lợi</p>
+                    <span>Thông tin luôn sẵn sàng để truy cập mọi lúc, mọi nơi qua máy tính, điện thoại thông minh, máy tính bảng. Báo cáo, thống kê hoàn toàn tự động.</span>
+                </Col>
+                <Col xs={6} md={4} className={cx("text-center")}>
+
+                </Col>
+                <Col data-aos="flip-right" xs={6} md={4} className={cx("text-center")}>
                     <FontAwesomeIcon style={{ color: "#ff6f61", height: "100px" }} icon={faCamera} />
-                    <Card.Title style={{ color: "gray", marginTop:"10px" }}>Khả năng lưu trữ</Card.Title>
-                    <Card.Text>
-                    Thông tin giải đấu được lưu, tái sử dụng, tra cứu. Tương tác, bình luận, chia sẻ dữ liệu dễ dàng cho tương lai.
-                    </Card.Text>
-                </Card.Body>
-            </Card>
-    </Row>
-</Container>
+                    <p>Khả năng lưu trữ</p>
+                    <span>Mọi thông tin của giải đấu sẽ được lưu lại làm kỷ niệm, phục vụ tra cứu, hoặc tái sử dụng cho giải tiếp theo. Dễ dàng tương tác, bình luận, chia sẻ các dữ liệu giải đấu.</span>
+                </Col>
+            </Row>
+        </Container>
     );
 }
